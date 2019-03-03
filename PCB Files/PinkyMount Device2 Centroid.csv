@@ -1,0 +1,15 @@
+Screaming Circuits SMD component position file.,,,,,
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.,,,,,
+,,,,,
+"Centroid Data for pc board: ""pinkyMount Device2.brd"" as of: 24/02/2019 9:02 PM",,,,,
+Measurements are in mil. Comma delimited,,,,,
+Only surface mount components included,,,,,
+,,,,,
+RefDes,Layer,LocationX,LocationY,Rotation,Comment
+C1,Top,366,135,270,CAP
+C2,Top,365,262,90,CAP
+R1,Top,312,262,90,RES
+R2,Top,259,262,270,RES
+R3,Top,207,262,270,RES
+R4,Top,31,262,90,RES
+U1,Top,152,106,0,BNO055
