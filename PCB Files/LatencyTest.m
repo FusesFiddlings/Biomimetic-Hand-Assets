@@ -32,7 +32,7 @@ for k = count18
             end
         end
 
-    pollInterval = 10;
+    pollInterval = k;
     tPol = pollInterval;
 
     t1Sense = 0;
@@ -48,7 +48,7 @@ for k = count18
     times = [0];
     allSensed = [];
 
-    for i = 0:0.01:1000000
+    for i = 0:0.01:500000
         if i>tPol
             times = [times t-tPol+pollInterval];
             t = tPol+byteDelay;
